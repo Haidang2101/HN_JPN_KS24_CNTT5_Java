@@ -1,0 +1,16 @@
+package b2;
+
+public class Student {
+    String studentId;
+    String studentName;
+
+    public Student(String studentId, String studentName) {
+        this.studentId = studentId;
+        this.studentName = studentName;
+    }
+
+    public void displayInfo() {
+        System.out.println("Mã SV: " + studentId + ", Tên SV: " + studentName);
+    }
+
+}
