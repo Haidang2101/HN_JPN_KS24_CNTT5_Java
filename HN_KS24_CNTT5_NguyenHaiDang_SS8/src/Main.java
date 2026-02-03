@@ -85,7 +85,6 @@ public class Main {
         } while (chon != 5);
     }
 
-    // ===== Hàm hỗ trợ sắp xếp học lực =====
     public static int getMucDo(Student sv) {
         if (sv.getRank().equals("Giỏi")) {
             return 3;
@@ -96,3 +95,4 @@ public class Main {
         }
     }
 }
+
